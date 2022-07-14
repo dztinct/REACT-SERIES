@@ -1,0 +1,27 @@
+body{
+    background-color:beige ;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+button{
+    margin-bottom: 3rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+}
